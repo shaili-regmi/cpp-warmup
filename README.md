@@ -61,15 +61,16 @@ This program will sit and wait until you enter 3 values.
 
 Write a class, circle, that stores a radius and has the following methods
 
-* default constructor (radius is set to 0)
+* [default constructor](https://en.cppreference.com/w/cpp/language/default_constructor) (radius is set to 0)
 * constructor taking a radius as argument
-* copy constructor
-* assignment operator
-* output stream operator
-* add operator (should add the radii of two circles together)
+* [copy constructor](https://www.tutorialspoint.com/cplusplus/cpp_copy_constructor.htm)
+* [assignment operator](https://www.tutorialspoint.com/cplusplus/assignment_operators_overloading.htm)
+* [output stream operator](https://www.tutorialspoint.com/cplusplus/input_output_operators_overloading.htm)
+* [add operator](https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm) (should add the radii of two circles together)
 * accessor (e.g. getter) for radius
 * mutator (e.g. setter) for radius
 * method for computing and returning the area
+* [destructor](https://www.tutorialspoint.com/destructors-in-cplusplus)
 
 Your class should also
 
