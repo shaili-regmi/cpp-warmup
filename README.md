@@ -46,7 +46,7 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-   int X,Y,Z;
+   int X,Y,N;
    cin >> X;
    cin >> Y;
    cin >> N;
