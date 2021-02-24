@@ -7,23 +7,23 @@ class Circle
 	{
 		Circle()
 		{
-			radius = 0f;
+			radius = 0;
 		}
 
-		Circle(float input_radius)
+		Circle(int r)
 		{
-			radius = input_radius;
+			radius = r;
 		}
 
 		Circle(const Circle &obj)
 		{
-			radius = new float;
+			radius = new int;
 			*radius = *obj.radius;
 		}
 	}
 
 	private
 	{
-		float radius;
+		int radius;
 	}
 };
