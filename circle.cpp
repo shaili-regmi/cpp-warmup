@@ -1,29 +1,45 @@
 #include "circle.h"
+using namespace std;
 
 // your code here
-class Circle
-{
-	public
+	Circle::Circle() 
 	{
-		Circle()
-		{
-			radius = 0;
-		}
-
-		Circle(int r)
-		{
-			radius = r;
-		}
-
-		Circle(const Circle &obj)
-		{
-			radius = new int;
-			*radius = *obj.radius;
-		}
+		radius = 0;
 	}
-
-	private
+	Circle::Circle(int r) 
 	{
-		int radius;
+		radius = r;
+	}
+	Circle(const Circle& circle) 
+	{
+
+	}
+	Circle& operator = (const Circle& circle)
+	{
+
+	}
+	friend std::ostream& operator<<(std::ostream& output, const Circle& circle)
+	{
+
+	}
+	Circle& operator + (const Circle& circle)
+	{
+
+	}
+	int getRadius()
+	{
+
+	}
+	void setRadius()
+	{
+
+	}
+	float computeArea()
+	{
+
+	}
+	~Circle()
+	{
+
 	}
 };
