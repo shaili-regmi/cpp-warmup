@@ -15,7 +15,7 @@ public:
 	friend std::ostream& operator<<(std::ostream& output, const Circle& circle); // output stream operator
 	Circle& operator + (const Circle& circle); // add operator
 	int getRadius(); // accessor
-	void setRadius(); // setter
+	void setRadius(int r); // setter
 	float computeArea(); // compute and return area
 	~Circle(); // destructor
 
