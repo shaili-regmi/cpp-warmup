@@ -20,6 +20,6 @@ public:
 	~Circle(); // destructor
 
 private:
-	int radius;
+	int radius; // radius of the circle
 };
 

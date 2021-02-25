@@ -1,5 +1,5 @@
 // Name: Shaili Regmi
-// Date: 2/21/2021
+// Date: 2/24/2021
 
 #include <iostream>
 #include <string>
@@ -12,20 +12,19 @@ int main(int argc, char** argv)
    cin >> Y;
    cin >> N;
 
-   // Your code here
    for (int i = 1; i <= N; i++)
    {
 	   if ((i % X == 0) && (i % Y == 0))
 	   {
-		   cout << "FizzBuzz" << endl;
+		   cout << "FizzBuzz" << endl; // Replace integers divisible by both X and Y with Fizzbuzz.
 	   }
 	   else if (i % X == 0)
 	   {
-		   cout << "Fizz" << endl;
+		   cout << "Fizz" << endl; // Replace integers divisible by X with Fizz.
 	   }
 	   else if (i % Y == 0)
 	   {
-		   cout << "Buzz" << endl;
+		   cout << "Buzz" << endl; // Replace integers divisible by Y with Buzz.
 	   }
 	   else
 	   {
